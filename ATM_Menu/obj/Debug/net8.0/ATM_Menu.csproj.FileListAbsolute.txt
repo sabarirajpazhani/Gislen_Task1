@@ -1,0 +1,15 @@
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.AssemblyInfoInputs.cache
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.AssemblyInfo.cs
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.csproj.CoreCompileInputs.cache
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.sourcelink.json
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\bin\Debug\net8.0\ATM_Menu.exe
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\bin\Debug\net8.0\ATM_Menu.deps.json
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\bin\Debug\net8.0\ATM_Menu.runtimeconfig.json
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\bin\Debug\net8.0\ATM_Menu.dll
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\bin\Debug\net8.0\ATM_Menu.pdb
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.dll
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\refint\ATM_Menu.dll
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.pdb
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ATM_Menu.genruntimeconfig.cache
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\ATM_Menu\obj\Debug\net8.0\ref\ATM_Menu.dll
