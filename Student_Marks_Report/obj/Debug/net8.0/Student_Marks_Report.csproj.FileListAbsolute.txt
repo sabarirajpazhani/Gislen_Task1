@@ -1,0 +1,15 @@
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\bin\Debug\net8.0\Student_Marks_Report.exe
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\bin\Debug\net8.0\Student_Marks_Report.deps.json
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\bin\Debug\net8.0\Student_Marks_Report.runtimeconfig.json
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\bin\Debug\net8.0\Student_Marks_Report.dll
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\bin\Debug\net8.0\Student_Marks_Report.pdb
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.AssemblyInfoInputs.cache
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.AssemblyInfo.cs
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.csproj.CoreCompileInputs.cache
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.sourcelink.json
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.dll
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\refint\Student_Marks_Report.dll
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.pdb
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\Student_Marks_Report.genruntimeconfig.cache
+C:\Users\sabarirajp\source\repos\Gislen_Task_1\Student_Marks_Report\obj\Debug\net8.0\ref\Student_Marks_Report.dll
