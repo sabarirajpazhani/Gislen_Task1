@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 //Exercise: Calculator with Type Conversion
 //Write a program that:
@@ -39,29 +39,65 @@ public class Calculator_with_Type_Conversion
         bool flag = true;
         while (flag)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("Enter Number 1: ");
-            Console.ResetColor();
-            int num1 = int.Parse(Console.ReadLine());
+            int num1 = 0;
+            int num2 = 0;
+            Number1:
+            try
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("Enter Number 1: ");
+                Console.ResetColor();
+                int Num1 = int.Parse(Console.ReadLine());
+                num1 = Num1;
+            }
+            catch(FormatException e){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Enter the Number Properly");
+                Console.ResetColor();
+                goto Number1;
+            }
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("Enter Number 2: ");
-            Console.ResetColor();
-            int num2 = int.Parse(Console.ReadLine());
-
+            Number2:
+            try
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("Enter Number 2: ");
+                Console.ResetColor();
+                int Num2 = int.Parse(Console.ReadLine());
+                num2 = Num2;
+            }
+            catch(FormatException e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Enter the Number Properly");
+                Console.ResetColor();
+                goto Number2;
+            }
             double dNum1 = num1;
             double dNum2 = num2;
-
+            Operators:
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("Enter the Operator : ");
             string operators = Console.ReadLine();
+
+            if (operators != "*" && operators != "+" && operators != "-" && operators != "/" && operators != "%")
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("Enter the Correct Operators");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine("Operators Allowed - '+' , '-' , '*' , '/' , '%' ");
+                Console.ResetColor();
+                goto Operators;
+            }
+
             Console.ResetColor();
 
             switch (operators)
             {
                 case "+":
                     double result1 = dNum1 + dNum2;
-                    Console.WriteLine($"Result : {num1} + {num2} = {result1}");
+                    Console.WriteLine($"Result : {dNum1} + {dNum2} = {result1}");
 
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("If you wnat to Perform Operation: (y/n)");
@@ -77,7 +113,7 @@ public class Calculator_with_Type_Conversion
 
                 case "-":
                     double result2 = dNum1 - dNum2;
-                    Console.WriteLine($"Result : {num1} -{num2} = {result2}");
+                    Console.WriteLine($"Result : {dNum1} -{dNum2} = {result2}");
 
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("If you wnat to Perform Operation: (y/n)");
@@ -93,7 +129,7 @@ public class Calculator_with_Type_Conversion
 
                 case "*":
                     double result3 = dNum1 * dNum2;
-                    Console.WriteLine($"Result : {num1} *{num2} = {result3}");
+                    Console.WriteLine($"Result : {dNum1} *{dNum2} = {result3}");
 
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("If you wnat to Perform Operation: (y/n)");
@@ -109,7 +145,7 @@ public class Calculator_with_Type_Conversion
 
                 case "/":
                     double result4 = dNum1 / dNum2;
-                    Console.WriteLine($"Result : {num1} /{num2} = {result4}");
+                    Console.WriteLine($"Result : {dNum1} /{dNum2} = {result4}");
 
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("If you wnat to Perform Operation: (y/n)");
@@ -125,7 +161,7 @@ public class Calculator_with_Type_Conversion
 
                 case "%":
                     double result5 = dNum1 % dNum2;
-                    Console.WriteLine($"Result : {num1} %{num2} = {result5}");
+                    Console.WriteLine($"Result : {dNum1} %{dNum2} = {result5}");
 
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("If you wnat to Perform Operation: (y/n) :");
